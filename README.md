@@ -1,12 +1,17 @@
 ### AI-Powered-Financial-Analysis-with-LLM
 
-##Project Description
+## Project Description
+
 This project combines Long Short-Term Memory (LSTM) networks and Large Language Models (LLMs) to predict the next day's closing price of a stock. The prediction leverages not only historical stock data but also sentiment analysis performed on recent news headlines related to the stock. The sentiment analysis is conducted using an LLM, enhancing the prediction accuracy by incorporating public sentiment. The project is built using Python, with a front-end interface created using Streamlit.
+
 ## Project Structure
 
 ├── aiapp.py                   # Main application file
+
 ├── requirements.txt           # Python dependencies
+
 ├── README.md                  # Project documentation
+
 └── lstm_stock_model.keras     # Pre-trained LSTM model
 
 ## Installation Instructions
